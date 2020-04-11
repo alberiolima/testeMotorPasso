@@ -161,9 +161,6 @@ void finalizaTeste() {
   /* desabilita motor */
   digitalWrite( PIN_MOTOR_HABILITA, HIGH );
 
-  /* Para passos */
-  //noTone( PIN_MOTOR_PASSO );
-
   Serial.println( F("Teste finalizado"));
 }
 
